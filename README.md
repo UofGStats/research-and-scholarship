@@ -2,16 +2,41 @@
 
 Quarto website containing the Funding Finder for Statistics.
 
-## Update the funding data
+## Update the funding data using RStudio
 
-Edit `Funding_Finder_for_Statistics_FFS.xlsx`, then run:
+The Excel workbook is the master copy of the funding data. You do not need to know Python to update it.
+
+1. Open `Funding_Finder_for_Statistics_FFS.xlsx` in Excel.
+2. Add or edit opportunities in the **Funding opportunities** worksheet. Keep the existing column names unchanged.
+3. Update the **Last reviewed** date in the **Guide & sources** worksheet.
+4. Save and close the workbook.
+5. Open RStudio and select **File → New Project → Existing Directory**. Choose this website folder. If you already have it open as a project, skip this step.
+6. Open the **Terminal** tab in RStudio. It is normally beside the Console tab.
+7. Run the following command to refresh the website data:
+
+   ```bash
+   /Users/danielacastrocamilo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/export_funding_data.py
+   ```
+
+8. When the Terminal reports that 41 opportunities were exported, preview the website by running:
+
+   ```bash
+   /Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto preview
+   ```
+
+9. Open the local preview address shown in the Terminal and check the updated opportunities.
+10. To stop the preview, click in the Terminal and press **Control+C**.
+
+The first command uses a small automated conversion script. You do not need to edit or understand Python: it simply reads the workbook and updates `data/funding-opportunities.json`, which is the file used by the website.
+
+### Commands to copy into the RStudio Terminal
+
+Run these commands one at a time:
 
 ```bash
-python3 scripts/export_funding_data.py
-quarto preview
+/Users/danielacastrocamilo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/export_funding_data.py
+/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto preview
 ```
-
-The export script preserves the workbook as the editorial master and writes the website data to `data/funding-opportunities.json`.
 
 ## Publish with GitHub Pages
 
