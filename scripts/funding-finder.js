@@ -132,6 +132,11 @@
     render();
   });
   els.drawerClose.addEventListener('click', closeDrawer);
+  document.addEventListener('pointerdown', event => {
+    if (els.drawer.classList.contains('is-open') && !els.drawer.contains(event.target)) {
+      closeDrawer();
+    }
+  });
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeDrawer(); });
 
   fetch('data/funding-opportunities.json')
