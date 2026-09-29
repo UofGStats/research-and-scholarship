@@ -40,10 +40,24 @@ Run these commands one at a time:
 
 ## Publish with GitHub Pages
 
-Create a GitHub repository for this folder, commit the project, and run:
+The repository includes a GitHub Actions workflow that renders the Quarto website and deploys the generated `_site` folder.
+
+### One-time GitHub setting
+
+1. Open the repository on GitHub.
+2. Select **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+
+Do not select **Deploy from a branch** for this project. That option uses GitHub's Jekyll builder, which cannot build the Quarto source directly.
+
+### Publish an update
+
+Commit and push changes to the `main` branch. The **Publish Quarto website** workflow will run automatically. You can follow its progress under the repository's **Actions** tab.
+
+To test before pushing, run this in the RStudio Terminal:
 
 ```bash
-quarto publish gh-pages
+/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto render
 ```
 
-Quarto creates and updates the `gh-pages` branch containing the rendered site.
+The completed local website will be written to `_site`.
