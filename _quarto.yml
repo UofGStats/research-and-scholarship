@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - data/
+
+website:
+  title: "Statistics Research & Scholarship"
+  description: "Funding opportunities curated for the University of Glasgow Statistics group."
+  favicon: assets/favicon.svg
+  navbar:
+    background: "#003865"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Funding Finder
+    right:
+      - text: Statistics at Glasgow
+        href: https://www.gla.ac.uk/schools/mathematicsstatistics/
+  page-footer:
+    left: "Statistics Research & Scholarship"
+    right: "University of Glasgow"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+    include-after-body: scripts/funding-finder.js
+    link-external-newwindow: true
+    smooth-scroll: true
+
