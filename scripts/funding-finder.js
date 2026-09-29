@@ -95,7 +95,6 @@
       <a class="source-button" href="${escapeHtml(item.source)}" target="_blank" rel="noopener noreferrer">View official opportunity</a>`;
     els.drawer.classList.add('is-open');
     els.drawer.setAttribute('aria-hidden', 'false');
-    els.backdrop.hidden = false;
     document.body.classList.add('drawer-open');
     els.drawerClose.focus();
   }
@@ -103,7 +102,6 @@
   function closeDrawer() {
     els.drawer.classList.remove('is-open');
     els.drawer.setAttribute('aria-hidden', 'true');
-    els.backdrop.hidden = true;
     document.body.classList.remove('drawer-open');
   }
 
@@ -134,7 +132,6 @@
     render();
   });
   els.drawerClose.addEventListener('click', closeDrawer);
-  els.backdrop.addEventListener('click', closeDrawer);
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeDrawer(); });
 
   fetch('data/funding-opportunities.json')
