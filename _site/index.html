@@ -256,6 +256,11 @@ Funding / duration
     backdrop: document.getElementById('drawer-backdrop')
   };
 
+  // Quarto wraps page content in containers that can create their own stacking
+  // contexts. Move the overlay elements to the document body so the drawer
+  // always sits above its backdrop and remains interactive.
+  document.body.append(els.backdrop, els.drawer);
+
   const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }[char]));
   const statusClass = status => status === 'OPEN' ? 'status-open' : status === 'FORTHCOMING' ? 'status-forthcoming' : 'status-monitor';
   const statusLabel = status => status === 'OPEN' ? 'Open' : status === 'FORTHCOMING' ? 'Forthcoming' : status.toLowerCase().includes('monitor') ? 'Monitor' : 'Closed';

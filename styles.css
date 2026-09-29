@@ -63,9 +63,9 @@ body { background: var(--ffs-bg); color: var(--ffs-ink); }
 .source-note { display: flex; align-items: flex-start; gap: .45rem; margin: .9rem 0 0; color: var(--ffs-muted); font-size: .78rem; }
 .finder-message { padding: 2rem; border: 1px solid var(--ffs-line); border-radius: .75rem; background: var(--ffs-paper); text-align: center; color: var(--ffs-muted); }
 .finder-error { color: #922f2a; }
-.drawer-backdrop { position: fixed; inset: 0; z-index: 1040; background: rgba(16,30,37,.38); }
-.detail-drawer { position: fixed; z-index: 1050; top: 0; right: 0; width: min(460px,100%); height: 100%; padding: 2rem; overflow-y: auto; transform: translateX(102%); transition: transform .22s ease; border-left: 1px solid var(--ffs-line); background: var(--ffs-paper); box-shadow: -1.25rem 0 3rem rgba(23,39,47,.18); }
-.detail-drawer.is-open { transform: translateX(0); }
+.drawer-backdrop { position: fixed; inset: 0; z-index: 2000; background: rgba(16,30,37,.38); }
+.detail-drawer { position: fixed; z-index: 2010; top: 0; right: 0; width: min(460px,100%); height: 100%; padding: 2rem; overflow-y: auto; pointer-events: none; visibility: hidden; transform: translateX(102%); transition: transform .22s ease, visibility 0s linear .22s; border-left: 1px solid var(--ffs-line); background: var(--ffs-paper); box-shadow: -1.25rem 0 3rem rgba(23,39,47,.18); }
+.detail-drawer.is-open { pointer-events: auto; visibility: visible; transform: translateX(0); transition-delay: 0s; }
 .drawer-close { position: absolute; top: .85rem; right: 1rem; width: 2.5rem; height: 2.5rem; border: 0; border-radius: 50%; background: #edf2f3; color: var(--ffs-muted); font-size: 1.7rem; line-height: 1; }
 .drawer-meta { display: flex; align-items: center; gap: .65rem; margin-right: 2rem; color: var(--ffs-muted); font-size: .85rem; }
 .detail-drawer h2 { margin: 1rem 2rem 1.25rem 0; font-size: 1.7rem; letter-spacing: -.025em; }
@@ -107,4 +107,3 @@ body.drawer-open { overflow: hidden; }
   .detail-drawer { padding: 1.4rem; }
 }
 @media (prefers-reduced-motion: reduce) { .detail-drawer { transition: none; } }
-
