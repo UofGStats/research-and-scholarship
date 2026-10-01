@@ -1,0 +1,14 @@
+---
+title: "Contact"
+description: "Contact the Statistics Research Leads about the Funding Finder."
+---
+
+::: {.contact-shell}
+## Help us keep the Funding Finder useful
+
+If anything does not look right, or if you know of a funding opportunity that should be added, please contact Daniela and Vinny.
+
+[stats-research@glasgow.ac.uk](mailto:stats-research@glasgow.ac.uk){.contact-email}
+
+Please include the opportunity name and a link to the official funder page where possible.
+:::

@@ -19,6 +19,10 @@
     backdrop: document.getElementById('drawer-backdrop')
   };
 
+  // This script is included across the Quarto website, but the finder controls
+  // only exist on the Funding Finder page.
+  if (!els.table || !els.drawer || !els.backdrop) return;
+
   // Quarto wraps page content in containers that can create their own stacking
   // contexts. Move the overlay elements to the document body so the drawer
   // always sits above its backdrop and remains interactive.

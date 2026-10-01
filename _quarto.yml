@@ -3,6 +3,7 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - contact.qmd
   resources:
     - data/
 
@@ -16,6 +17,8 @@ website:
     left:
       - href: index.qmd
         text: Funding Finder
+      - href: contact.qmd
+        text: Contact
     right:
       - text: Statistics at Glasgow
         href: https://www.gla.ac.uk/schools/mathematicsstatistics/

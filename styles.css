@@ -18,6 +18,10 @@
 }
 
 body { background: var(--ffs-bg); color: var(--ffs-ink); }
+
+.contact-shell { max-width: 760px; margin: 3rem auto; padding: 2rem; border: 1px solid var(--ffs-line); border-radius: .75rem; background: #fff; box-shadow: 0 12px 32px rgba(0, 56, 101, .08); }
+.contact-shell h2 { margin-top: 0; color: var(--ffs-blue); }
+.contact-email { display: inline-block; margin: .6rem 0 1rem; font-size: 1.15rem; font-weight: 700; }
 .navbar { box-shadow: none; border-bottom: 4px solid #00a6a6; }
 .navbar-brand { font-weight: 600; letter-spacing: -.01em; }
 .nav-footer { border-top: 1px solid var(--ffs-line); background: var(--ffs-paper); }
