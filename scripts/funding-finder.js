@@ -34,6 +34,8 @@
   function isMonitor(item) { return item.status.startsWith('CLOSED') || item.status === 'DEADLINE PASSED'; }
   function matchesStatus(item) {
     if (state.status === 'all') return true;
+    if (state.status === 'RESEARCH') return item.area === 'Research' || item.area === 'Research and Scholarship';
+    if (state.status === 'SCHOLARSHIP') return item.area === 'Scholarship' || item.area === 'Research and Scholarship';
     if (state.status === 'ROLLING') return isRolling(item);
     if (state.status === 'MONITOR') return isMonitor(item);
     return item.status === state.status;
@@ -113,6 +115,8 @@
     const data = state.opportunities;
     document.getElementById('count-all').textContent = data.length;
     document.getElementById('count-open').textContent = data.filter(x => x.status === 'OPEN').length;
+    document.getElementById('count-research').textContent = data.filter(x => x.area === 'Research' || x.area === 'Research and Scholarship').length;
+    document.getElementById('count-scholarship').textContent = data.filter(x => x.area === 'Scholarship' || x.area === 'Research and Scholarship').length;
     document.getElementById('count-forthcoming').textContent = data.filter(x => x.status === 'FORTHCOMING').length;
     document.getElementById('count-rolling').textContent = data.filter(isRolling).length;
     document.getElementById('count-monitor').textContent = data.filter(isMonitor).length;
