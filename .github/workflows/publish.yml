@@ -16,28 +16,10 @@ concurrency:
 
 jobs:
   build:
-    outputs:
-      new_count: ${{ steps.changes.outputs.count }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-
-      - name: Detect newly added funding opportunities
-        id: changes
-        env:
-          BASE_SHA: ${{ github.event.before }}
-        run: node scripts/detect-new-opportunities.mjs
-
-      - name: Save notification data
-        if: github.event_name == 'push' && steps.changes.outputs.count != '0'
-        uses: actions/upload-artifact@v4
-        with:
-          name: new-funding-opportunities
-          path: new-opportunities.json
-          retention-days: 1
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -57,8 +39,6 @@ jobs:
           path: _site
 
   deploy:
-    outputs:
-      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -69,26 +49,3 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  notify:
-    name: Email new funding opportunities
-    if: github.event_name == 'push' && needs.build.outputs.new_count != '0'
-    runs-on: ubuntu-latest
-    needs: [build, deploy]
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v6
-
-      - name: Download notification data
-        uses: actions/download-artifact@v5
-        with:
-          name: new-funding-opportunities
-
-      - name: Send notification email
-        env:
-          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-          AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
-          EMAIL_SENDER: daniela.castrocamilo@glasgow.ac.uk
-          EMAIL_RECIPIENT: daniela.castrocamilo@glasgow.ac.uk
-          FUNDING_FINDER_URL: ${{ needs.deploy.outputs.page_url }}
-        run: node scripts/send-funding-notification.mjs

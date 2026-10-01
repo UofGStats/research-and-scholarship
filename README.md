@@ -61,21 +61,3 @@ To test before pushing, run this in the RStudio Terminal:
 ```
 
 The completed local website will be written to `_site`.
-
-## Email alerts for new opportunities
-
-After a successful GitHub Pages deployment, the workflow compares the current funding data with the repository state before the push. If it finds new opportunity IDs, it sends one summary email from `daniela.castrocamilo@glasgow.ac.uk` to `daniela.castrocamilo@glasgow.ac.uk`. Edits to existing opportunities do not trigger an email.
-
-The email step uses Microsoft Graph. A University of Glasgow Microsoft 365 administrator must create or approve an Entra ID application with the Microsoft Graph **Application** permission `Mail.Send` and grant tenant-wide admin consent. Ask the administrator to restrict the application to the sender mailbox where possible.
-
-Add these three values under **GitHub repository → Settings → Secrets and variables → Actions → New repository secret**:
-
-- `AZURE_TENANT_ID`: the University Microsoft 365 tenant ID
-- `AZURE_CLIENT_ID`: the Entra application (client) ID
-- `AZURE_CLIENT_SECRET`: a client secret created for that application
-
-Do not put these values in the repository files. GitHub Actions injects repository secrets only into the email step.
-
-Once the secrets are configured, test the process by adding one new opportunity to the Excel workbook, refreshing `data/funding-opportunities.json`, committing both files and pushing to `main`. The workflow will deploy the website first and then send the alert.
-
-Manual runs from the GitHub **Actions** page do not send notifications. This prevents an ordinary rebuild from repeating an earlier email.
