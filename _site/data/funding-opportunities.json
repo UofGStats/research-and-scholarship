@@ -3,7 +3,7 @@
   "opportunities": [
     {
       "id": "medtech-innovation-fund-40",
-      "status": "CLOSED – monitor recurrence",
+      "status": "DEADLINE PASSED",
       "deadline_display": "18 Sep 2026",
       "deadline_sort": "2026-09-18",
       "deadline_kind": "exact",
@@ -20,7 +20,7 @@
     },
     {
       "id": "swift-flexifund-41",
-      "status": "CLOSED – invited stage continues",
+      "status": "DEADLINE PASSED",
       "deadline_display": "21 Sep 2026",
       "deadline_sort": "2026-09-21",
       "deadline_kind": "exact",
@@ -37,7 +37,7 @@
     },
     {
       "id": "hypersensory-intelligence-olfactory-perception-ta1-open-olfactory-resource-2",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "30 Sep 2026",
       "deadline_sort": "2026-09-30",
       "deadline_kind": "exact",
@@ -54,7 +54,7 @@
     },
     {
       "id": "scheme-3-joint-research-groups-1",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "30 Sep 2026",
       "deadline_sort": "2026-09-30",
       "deadline_kind": "exact",

@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 import pandas as pd
@@ -49,10 +49,14 @@ def main() -> None:
     records = []
     for index, row in data.iterrows():
         display, sort_key, kind, note = deadline_fields(row["Deadline"])
+        status_setting = clean(row.get("Status setting", row["Status"]))
+        status = status_setting
+        if kind == "exact" and pd.Timestamp(row["Deadline"]).date() < date.today():
+            status = "DEADLINE PASSED"
         records.append(
             {
                 "id": f"{slugify(clean(row['Opportunity']))}-{index + 1}",
-                "status": clean(row["Status"]),
+                "status": status,
                 "deadline_display": display,
                 "deadline_sort": sort_key,
                 "deadline_kind": kind,
@@ -80,4 +84,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

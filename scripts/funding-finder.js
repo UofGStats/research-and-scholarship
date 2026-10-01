@@ -25,13 +25,13 @@
   document.body.append(els.backdrop, els.drawer);
 
   const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }[char]));
-  const statusClass = status => status === 'OPEN' ? 'status-open' : status === 'FORTHCOMING' ? 'status-forthcoming' : 'status-monitor';
-  const statusLabel = status => status === 'OPEN' ? 'Open' : status === 'FORTHCOMING' ? 'Forthcoming' : status.toLowerCase().includes('monitor') ? 'Monitor' : 'Closed';
+  const statusClass = status => status === 'OPEN' ? 'status-open' : status === 'FORTHCOMING' ? 'status-forthcoming' : status === 'DEADLINE PASSED' ? 'status-passed' : 'status-monitor';
+  const statusLabel = status => status === 'OPEN' ? 'Open' : status === 'FORTHCOMING' ? 'Forthcoming' : status === 'DEADLINE PASSED' ? 'Deadline passed' : status.toLowerCase().includes('monitor') ? 'Monitor' : 'Closed';
   const tags = value => String(value || '').split(';').map(item => item.trim()).filter(Boolean);
   const searchText = item => Object.values(item).join(' ').toLowerCase();
 
   function isRolling(item) { return item.deadline_kind === 'rolling'; }
-  function isMonitor(item) { return item.status.startsWith('CLOSED'); }
+  function isMonitor(item) { return item.status.startsWith('CLOSED') || item.status === 'DEADLINE PASSED'; }
   function matchesStatus(item) {
     if (state.status === 'all') return true;
     if (state.status === 'ROLLING') return isRolling(item);

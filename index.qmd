@@ -21,10 +21,10 @@ Explore curated opportunities where statisticians can lead, collaborate or devel
 
 <div class="status-tabs" role="tablist" aria-label="Filter opportunities by status">
   <button class="status-tab" type="button" data-status="all" aria-selected="false">All <span id="count-all">41</span></button>
-  <button class="status-tab is-active" type="button" data-status="OPEN" aria-selected="true">Open now <span id="count-open">31</span></button>
+  <button class="status-tab is-active" type="button" data-status="OPEN" aria-selected="true">Open now <span id="count-open">29</span></button>
   <button class="status-tab" type="button" data-status="FORTHCOMING" aria-selected="false">Forthcoming <span id="count-forthcoming">8</span></button>
   <button class="status-tab" type="button" data-status="ROLLING" aria-selected="false">No closing date <span id="count-rolling">5</span></button>
-  <button class="status-tab" type="button" data-status="MONITOR" aria-selected="false">Monitor <span id="count-monitor">2</span></button>
+  <button class="status-tab" type="button" data-status="MONITOR" aria-selected="false">Past / monitor <span id="count-monitor">4</span></button>
 </div>
 
 ::: {.finder-toolbar}
