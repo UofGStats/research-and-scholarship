@@ -8,6 +8,7 @@ The Excel workbook is the master copy of the funding data.
 
 1. Open `Funding_Finder_for_Statistics_FFS.xlsx` in Excel.
 2. Add or edit opportunities in the **Funding opportunities** worksheet. Keep the existing column names unchanged.
+   - Set **Research / Scholarship** to **Research**, **Scholarship**, or **Research and Scholarship**.
    - Use **Status setting** to select the normal status. The calculated **Status** changes to **DEADLINE PASSED** automatically when an exact deadline is earlier than today.
    - Approximate deadlines such as “Oct 2026” and opportunities with no closing date remain under manual control.
 3. Update the **Last reviewed** date in the **Guide & sources** worksheet.

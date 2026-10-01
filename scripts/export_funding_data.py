@@ -64,6 +64,7 @@ def main() -> None:
                 "funder": clean(row["Funder"]),
                 "opportunity": clean(row["Opportunity"]),
                 "type": clean(row["Type"]),
+                "area": clean(row["Research / Scholarship"]),
                 "funding_duration": clean(row["Funding / duration"]),
                 "eligibility": clean(row["Who can apply / key restriction"]),
                 "statistics_relevance": clean(row["Why relevant to Statistics"]),
