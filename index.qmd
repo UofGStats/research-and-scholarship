@@ -1,21 +1,21 @@
 ---
 title: "Funding Finder for Statistics"
-description: "Explore curated research funding opportunities relevant to statisticians."
+description: "Explore funding opportunities relevant to statisticians."
 ---
 
 ::: {.finder-shell}
 ::: {.finder-intro}
 ::: {.intro-copy}
-<p class="eyebrow">Research funding</p>
+<p class="eyebrow">Research & Scholarship funding</p>
 
 # Funding Finder for Statistics
 
-Explore curated opportunities where statisticians can lead, collaborate or develop their research careers.
+Explore curated opportunities where statisticians can lead, collaborate or develop their research and scholarship careers.
 :::
 
 ::: {.review-date}
 <span class="review-icon" aria-hidden="true">✓</span>
-<span>Last reviewed<strong id="last-reviewed">29 September 2026</strong></span>
+<span>Last reviewed<strong id="last-reviewed">01 October 2026</strong></span>
 :::
 :::
 

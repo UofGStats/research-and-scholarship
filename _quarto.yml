@@ -5,7 +5,7 @@ project:
     - data/
 
 website:
-  title: "Statistics Research & Scholarship"
+  title: "FFS -- Funding Finder for Stats"
   description: "Funding opportunities curated for the University of Glasgow Statistics group."
   favicon: assets/favicon.svg
   navbar:
