@@ -740,6 +740,24 @@
       "source": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
     },
     {
+      "id": "international-fellowships-2027-50",
+      "status": "FORTHCOMING",
+      "deadline_display": "Early–mid March 2027 (TBC)",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "Royal Society / British Academy",
+      "opportunity": "International Fellowships 2027",
+      "type": "Fellowship",
+      "area": "Research",
+      "funding_duration": "2 years; salary at 80% FEC + research expenses (2026: up to £12k) + relocation costs (2026: up to £8k)",
+      "eligibility": "International ECRs based outside the UK; normally ≤5 years active full-time postdoctoral experience. Applicant must have/complete PhD by final awards stage, must not hold UK citizenship, and generally must not have lived/worked/researched in UK during previous 12 months. UK Sponsor required. For 2027, max. 8 applications per UK institution.",
+      "statistics_relevance": "Opportunity to recruit an international ECR to Glasgow for two years. Mathematics is explicitly within Royal Society remit; potentially relevant across Statistics research areas. Glasgow Statistics academics can act as UK Sponsors.",
+      "theme_tags": "All research areas; ECR; International; Fellowship",
+      "internal_note": "Institutional demand management applies for 2027: Glasgow can submit max. 8 applications. Check UofG internal selection/deadline when announced. UK Sponsor may support only one application per round. Funding figures currently based on 2026 guidance; update once full 2027 scheme guidance is published.",
+      "source": "https://www.thebritishacademy.ac.uk/documents/6283/International_Fellowships_2027_-_FAQs.pdf?utm_source=chatgpt.com"
+    },
+    {
       "id": "learning-teaching-development-fund-ltdf-43",
       "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next call TBC",
