@@ -33,10 +33,8 @@ install.packages(c("readxl", "jsonlite"))
 1. In the **Funding opportunities** worksheet, set **Notify?** to **Yes** for the new opportunity.
    Existing opportunities imported when the Funding Finder was launched are marked **Added at launch – no notification**.
 2. Copy the generated **Email subject** into the Outlook subject line.
-3. Copy the generated **Email body** into the message and check the details before sending.
-4. In the email, select the words **View official opportunity**, press **Command+K** (Mac) or **Ctrl+K** (Windows), and paste the opportunity URL from the workbook's **Source** column.
-5. If required, do the same with the words **Open Funding Finder**, using `https://uofgstats.github.io/research-and-scholarship/` as the URL.
-6. Send the email manually, then enter the date in the workbook's **Notification date** column.
+3. Copy the generated **Email body** into the message and check the details and both URLs before sending. Outlook should convert the URLs into clickable links automatically.
+4. Send the email manually, then enter the date in the workbook's **Notification date** column.
 
 Always check the official opportunity page before sending, as deadlines and eligibility information may change.
 
