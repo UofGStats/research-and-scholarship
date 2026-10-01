@@ -14,23 +14,19 @@ The Excel workbook is the master copy of the funding data.
 3. Update the **Last reviewed** date in the **Guide & sources** worksheet.
 4. Save and close the workbook.
 5. Open RStudio and select **File → New Project → Existing Directory**. Choose this website folder. If you already have it open as a project, skip this step.
-6. Open the **Terminal** tab in RStudio. It is normally beside the Console tab.
-7. Run the following command to refresh the website data:
+6. In RStudio's **Files** pane, open `scripts/export_funding_data.R` and click **Source**. The Console should report how many opportunities were exported.
+7. Open the **Build** pane and click **Render Website**.
+8. Check the rendered website, especially the new opportunity, its status, filters, details and official link.
 
-   ```bash
-   /Users/danielacastrocamilo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/export_funding_data.py
-   ```
+The R script reads the workbook and updates `data/funding-opportunities.json`, which is the file used by the website. It uses project-relative paths, so the instructions work for anyone who opens this folder as an RStudio project.
 
-8. When the Terminal reports that 41 opportunities were exported, preview the website by running:
+### One-time R package setup
 
-   ```bash
-   /Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto preview
-   ```
+If the export script reports that packages are missing, run this once in the RStudio **Console**, then click **Source** again:
 
-9. Open the local preview address shown in the Terminal and check the updated opportunities.
-10. To stop the preview, click in the Terminal and press **Control+C**.
-
-The first command uses a small automated conversion script. You do not need to edit or understand Python: it simply reads the workbook and updates `data/funding-opportunities.json`, which is the file used by the website.
+```r
+install.packages(c("readxl", "jsonlite"))
+```
 
 ## Send an email about a new opportunity
 
@@ -42,15 +38,6 @@ The first command uses a small automated conversion script. You do not need to e
 6. Send the email manually, then enter the date in the workbook's **Notification date** column.
 
 Always check the official opportunity page before sending, as deadlines and eligibility information may change.
-
-### Commands to copy into the RStudio Terminal
-
-Run these commands one at a time:
-
-```bash
-/Users/danielacastrocamilo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/export_funding_data.py
-/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto preview
-```
 
 ## Publish with GitHub Pages
 
@@ -68,10 +55,4 @@ Do not select **Deploy from a branch** for this project. That option uses GitHub
 
 Commit and push changes to the `main` branch. The **Publish Quarto website** workflow will run automatically. You can follow its progress under the repository's **Actions** tab.
 
-To test before pushing, run this in the RStudio Terminal:
-
-```bash
-/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto render
-```
-
-The completed local website will be written to `_site`.
+To test before pushing, use **Build → Render Website** in RStudio. The completed local website will be written to `_site`.
