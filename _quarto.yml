@@ -20,7 +20,7 @@ website:
       - href: contact.qmd
         text: Contact
     right:
-      - text: Statistics at Glasgow
+      - text: Maths & Stats at Glasgow
         href: https://www.gla.ac.uk/schools/mathematicsstatistics/
   page-footer:
     left: "Statistics Research & Scholarship"
