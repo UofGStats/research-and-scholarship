@@ -15,7 +15,7 @@ Explore curated opportunities where statisticians can lead, collaborate or devel
 
 ::: {.review-date}
 <span class="review-icon" aria-hidden="true">✓</span>
-<span>Last reviewed<strong id="last-reviewed">01 October 2026</strong></span>
+<span>Last reviewed<strong id="last-reviewed">02 October 2026</strong></span>
 :::
 :::
 

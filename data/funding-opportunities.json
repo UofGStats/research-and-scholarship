@@ -93,7 +93,7 @@
     },
     {
       "id": "nerc-climate-adaptation-icure-discover-34",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Oct 2026",
       "deadline_sort": "2026-10-01",
       "deadline_kind": "month",
@@ -111,7 +111,7 @@
     },
     {
       "id": "what-works-centre-for-a-climate-resilient-uk-33",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Oct 2026",
       "deadline_sort": "2026-10-01",
       "deadline_kind": "month",
@@ -129,7 +129,7 @@
     },
     {
       "id": "forecasting-tipping-points-phase-2-4",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "9 Oct 2026",
       "deadline_sort": "2026-10-09",
       "deadline_kind": "exact",
@@ -147,7 +147,7 @@
     },
     {
       "id": "celebrating-new-appointments-scheme-9-6",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "15 Oct 2026",
       "deadline_sort": "2026-10-15",
       "deadline_kind": "exact",
@@ -165,7 +165,7 @@
     },
     {
       "id": "early-career-researcher-travel-grants-7",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "15 Oct 2026",
       "deadline_sort": "2026-10-15",
       "deadline_kind": "exact",
@@ -183,7 +183,7 @@
     },
     {
       "id": "postgraduate-research-conference-grants-scheme-8-5",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "15 Oct 2026",
       "deadline_sort": "2026-10-15",
       "deadline_kind": "exact",
@@ -201,7 +201,7 @@
     },
     {
       "id": "international-bilateral-visits-12",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -219,7 +219,7 @@
     },
     {
       "id": "international-joint-projects-11",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -237,7 +237,7 @@
     },
     {
       "id": "personal-research-fellowships-8",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -255,7 +255,7 @@
     },
     {
       "id": "research-collaboration-grants-9",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -273,7 +273,7 @@
     },
     {
       "id": "saphire-fund-13",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -291,7 +291,7 @@
     },
     {
       "id": "small-research-grants-10",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -309,7 +309,7 @@
     },
     {
       "id": "advancing-innovation-in-accelerated-cancer-diagnosis-14",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "28 Oct 2026",
       "deadline_sort": "2026-10-28",
       "deadline_kind": "exact",
@@ -327,7 +327,7 @@
     },
     {
       "id": "policy-fellowships-35",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Nov 2026",
       "deadline_sort": "2026-11-01",
       "deadline_kind": "month",
@@ -345,7 +345,7 @@
     },
     {
       "id": "ukri-research-on-research-security-hub-36",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Nov 2026",
       "deadline_sort": "2026-11-01",
       "deadline_kind": "month",
@@ -363,7 +363,7 @@
     },
     {
       "id": "rse-fulbright-scholar-award-15",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "2 Nov 2026",
       "deadline_sort": "2026-11-02",
       "deadline_kind": "exact",
@@ -381,7 +381,7 @@
     },
     {
       "id": "transformative-sustainable-ai-technologies-16",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "10 Nov 2026",
       "deadline_sort": "2026-11-10",
       "deadline_kind": "exact",
@@ -399,7 +399,7 @@
     },
     {
       "id": "exploring-the-frontiers-of-environmental-research-2026-17",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "12 Nov 2026",
       "deadline_sort": "2026-11-12",
       "deadline_kind": "exact",
@@ -417,7 +417,7 @@
     },
     {
       "id": "emmy-noether-fellowships-18",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "30 Nov 2026",
       "deadline_sort": "2026-11-30",
       "deadline_kind": "exact",
@@ -435,7 +435,7 @@
     },
     {
       "id": "climate-adaptation-environment-and-resilience-ice-free-arctic-ocean-38",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Dec 2026",
       "deadline_sort": "2026-12-01",
       "deadline_kind": "month",
@@ -453,7 +453,7 @@
     },
     {
       "id": "frontier-ai-research-and-development-consortia-37",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Dec 2026",
       "deadline_sort": "2026-12-01",
       "deadline_kind": "month",
@@ -471,7 +471,7 @@
     },
     {
       "id": "healthy-planet-healthy-people-catalyst-awards-19",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "1 Dec 2026",
       "deadline_sort": "2026-12-01",
       "deadline_kind": "exact",
@@ -489,7 +489,7 @@
     },
     {
       "id": "healthy-planet-healthy-people-change-awards-20",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "1 Dec 2026",
       "deadline_sort": "2026-12-01",
       "deadline_kind": "exact",
@@ -507,7 +507,7 @@
     },
     {
       "id": "venture-scientist-100-49",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "6 Dec 2026",
       "deadline_sort": "2026-12-06",
       "deadline_kind": "exact",
@@ -525,7 +525,7 @@
     },
     {
       "id": "collaborations-with-developing-countries-scheme-5-24",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "22 Jan 2027",
       "deadline_sort": "2027-01-22",
       "deadline_kind": "exact",
@@ -543,7 +543,7 @@
     },
     {
       "id": "conference-and-research-workshop-grants-scheme-1-21",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "22 Jan 2027",
       "deadline_sort": "2027-01-22",
       "deadline_kind": "exact",
@@ -561,7 +561,7 @@
     },
     {
       "id": "research-reboot-research-in-pairs-scheme-4-23",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "22 Jan 2027",
       "deadline_sort": "2027-01-22",
       "deadline_kind": "exact",
@@ -579,7 +579,7 @@
     },
     {
       "id": "visiting-speakers-to-the-uk-scheme-2-22",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "22 Jan 2027",
       "deadline_sort": "2027-01-22",
       "deadline_kind": "exact",
@@ -597,7 +597,7 @@
     },
     {
       "id": "atiyah-uk-lebanon-fellowships-25",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "31 Jan 2027",
       "deadline_sort": "2027-01-31",
       "deadline_kind": "exact",
@@ -615,7 +615,7 @@
     },
     {
       "id": "future-leaders-fellowships-round-12-39",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Feb 2027",
       "deadline_sort": "2027-02-01",
       "deadline_kind": "month",
@@ -633,7 +633,7 @@
     },
     {
       "id": "undergraduate-research-bursaries-26",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "1 Feb 2027",
       "deadline_sort": "2027-02-01",
       "deadline_kind": "exact",
@@ -651,7 +651,7 @@
     },
     {
       "id": "bbsrc-brazil-pump-priming-award-fappa-27",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "No closing date",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "rolling",
@@ -669,7 +669,7 @@
     },
     {
       "id": "collaborative-teaching-scholarship-project-grants-46",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "TBC – next academic year",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -687,7 +687,7 @@
     },
     {
       "id": "epsrc-new-investigator-award-applicant-led-mode-30",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "No closing date",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "rolling",
@@ -705,7 +705,7 @@
     },
     {
       "id": "epsrc-standard-research-grant-29",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "No closing date",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "rolling",
@@ -723,7 +723,7 @@
     },
     {
       "id": "enabling-ai-adoption-across-science-and-engineering-32",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Sep/Oct 2026",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -741,7 +741,7 @@
     },
     {
       "id": "international-fellowships-2027-50",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "Early–mid March 2027 (TBC)",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -759,7 +759,7 @@
     },
     {
       "id": "learning-teaching-development-fund-ltdf-43",
-      "status": [],
+      "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next call TBC",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -777,7 +777,7 @@
     },
     {
       "id": "mathematical-sciences-early-independence-fellowship-31",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "No closing date",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "rolling",
@@ -795,7 +795,7 @@
     },
     {
       "id": "mathematical-sciences-small-grants-28",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "No closing date",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "rolling",
@@ -813,7 +813,7 @@
     },
     {
       "id": "nerc-urgency-funding-52",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "Open – no fixed deadline",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -831,7 +831,7 @@
     },
     {
       "id": "scholarship-network-grants-47",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "TBC – next academic year",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -849,7 +849,7 @@
     },
     {
       "id": "scholarship-of-teaching-learning-sotl-fund-42",
-      "status": [],
+      "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next call TBC",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -867,7 +867,7 @@
     },
     {
       "id": "scotland-s-tertiary-enhancement-programme-step-funded-projects-48",
-      "status": [],
+      "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next call TBC",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -885,7 +885,7 @@
     },
     {
       "id": "single-institution-teaching-scholarship-project-grants-45",
-      "status": [],
+      "status": "FORTHCOMING",
       "deadline_display": "TBC – next academic year",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -903,7 +903,7 @@
     },
     {
       "id": "student-staff-partnership-schemes-ssps-44",
-      "status": [],
+      "status": "CLOSED – monitor recurrence",
       "deadline_display": "Check internal call",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",
@@ -921,7 +921,7 @@
     },
     {
       "id": "what-works-centre-for-a-climate-resilient-uk-51",
-      "status": [],
+      "status": "OPEN",
       "deadline_display": "15 December 2026, 16:00",
       "deadline_sort": "9999-12-31",
       "deadline_kind": "text",

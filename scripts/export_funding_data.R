@@ -76,6 +76,15 @@ funding_data <- readxl::read_excel(
   sheet = "Funding opportunities",
   col_types = "text"
 )
+
+status_column <- if ("Manual status" %in% names(funding_data)) {
+  "Manual status"
+} else if ("Status setting" %in% names(funding_data)) {
+  "Status setting"
+} else {
+  stop("Could not find the Manual status column in the Funding opportunities worksheet.")
+}
+
 guide <- readxl::read_excel(
   workbook_path,
   sheet = "Guide & sources",
@@ -93,7 +102,7 @@ last_reviewed <- clean(guide[[2]][last_reviewed_row])
 records <- lapply(seq_len(nrow(funding_data)), function(index) {
   row <- funding_data[index, ]
   deadline <- deadline_fields(row[["Deadline"]])
-  status <- clean(row[["Status setting"]])
+  status <- clean(row[[status_column]])
 
   if (deadline$kind == "exact" && deadline$date < Sys.Date()) {
     status <- "DEADLINE PASSED"

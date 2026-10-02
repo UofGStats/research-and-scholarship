@@ -35,7 +35,7 @@
   const searchText = item => Object.values(item).join(' ').toLowerCase();
 
   function isRolling(item) { return item.deadline_kind === 'rolling'; }
-  function isMonitor(item) { return item.status.startsWith('CLOSED') || item.status === 'DEADLINE PASSED'; }
+  function isMonitor(item) { return String(item.status || '').startsWith('CLOSED') || item.status === 'DEADLINE PASSED'; }
   function matchesStatus(item) {
     if (state.status === 'all') return true;
     if (state.status === 'RESEARCH') return item.area === 'Research' || item.area === 'Research and Scholarship';
@@ -150,7 +150,10 @@
   fetch('data/funding-opportunities.json')
     .then(response => { if (!response.ok) throw new Error('Data request failed'); return response.json(); })
     .then(payload => {
-      state.opportunities = payload.opportunities;
+      state.opportunities = payload.opportunities.map(item => ({
+        ...item,
+        status: typeof item.status === 'string' && item.status ? item.status : 'CLOSED – monitor recurrence'
+      }));
       document.getElementById('last-reviewed').textContent = payload.last_reviewed;
       populateSelect(els.funder, [...new Set(state.opportunities.map(x => x.funder))]);
       populateSelect(els.type, [...new Set(state.opportunities.map(x => x.type))]);

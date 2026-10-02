@@ -49,7 +49,7 @@ def main() -> None:
     records = []
     for index, row in data.iterrows():
         display, sort_key, kind, note = deadline_fields(row["Deadline"])
-        status_setting = clean(row.get("Status setting", row["Status"]))
+        status_setting = clean(row.get("Manual status", row.get("Status setting", row["Status"])))
         status = status_setting
         if kind == "exact" and pd.Timestamp(row["Deadline"]).date() < date.today():
             status = "DEADLINE PASSED"
