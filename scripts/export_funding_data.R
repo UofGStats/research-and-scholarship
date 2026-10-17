@@ -85,19 +85,7 @@ status_column <- if ("Manual status" %in% names(funding_data)) {
   stop("Could not find the Manual status column in the Funding opportunities worksheet.")
 }
 
-guide <- readxl::read_excel(
-  workbook_path,
-  sheet = "Guide & sources",
-  col_names = FALSE,
-  col_types = "text",
-  .name_repair = "minimal"
-)
-
-last_reviewed_row <- which(clean(guide[[1]]) == "Last reviewed")
-if (length(last_reviewed_row) != 1) {
-  stop("Could not find a unique Last reviewed entry in the Guide & sources worksheet.")
-}
-last_reviewed <- clean(guide[[2]][last_reviewed_row])
+last_reviewed <- format(Sys.Date(), "%e %B %Y") |> trimws()
 
 records <- lapply(seq_len(nrow(funding_data)), function(index) {
   row <- funding_data[index, ]

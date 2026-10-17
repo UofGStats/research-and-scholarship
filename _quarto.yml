@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: Rscript scripts/export_funding_data.R
   render:
     - index.qmd
     - contact.qmd

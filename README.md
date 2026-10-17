@@ -9,20 +9,18 @@ The Excel workbook is the master copy of the funding data.
 1. Open `Funding_Finder_for_Statistics_FFS.xlsx` in Excel.
 2. Add or edit opportunities in the **Funding opportunities** worksheet. Keep the existing column names unchanged.
    - Set **Research / Scholarship** to **Research**, **Scholarship**, or **Research and Scholarship**.
-   - Use **Status setting** to select the normal status. The calculated **Status** changes to **DEADLINE PASSED** automatically when an exact deadline is earlier than today.
+   - Use **Manual status** to select the normal status. The calculated **Status** changes to **DEADLINE PASSED** automatically when an exact deadline is earlier than today.
    - Approximate deadlines such as “Oct 2026” and opportunities with no closing date remain under manual control.
-3. Update the **Last reviewed** date in the **Guide & sources** worksheet.
-4. Save and close the workbook.
-5. Open RStudio and select **File → New Project → Existing Directory**. Choose this website folder. If you already have it open as a project, skip this step.
-6. In RStudio's **Files** pane, open `scripts/export_funding_data.R` and click **Source**. The Console should report how many opportunities were exported.
-7. Open the **Build** pane and click **Render Website**.
-8. Check the rendered website, especially the new opportunity, its status, filters, details and official link.
+3. Save and close the workbook.
+4. Open RStudio and select **File → New Project → Existing Directory**. Choose this website folder. If you already have it open as a project, skip this step.
+5. Open the **Build** pane and click **Render Website**. Quarto automatically exports the spreadsheet data and sets **Last reviewed** to today's date.
+6. Check the rendered website, especially the new opportunity, its status, filters, details and official link.
 
-The R script reads the workbook and updates `data/funding-opportunities.json`, which is the file used by the website. It uses project-relative paths, so the instructions work for anyone who opens this folder as an RStudio project.
+Before each render, Quarto runs the R script that reads the workbook and updates `data/funding-opportunities.json`, which is the file used by the website. It uses project-relative paths, so the instructions work for anyone who opens this folder as an RStudio project.
 
 ### One-time R package setup
 
-If the export script reports that packages are missing, run this once in the RStudio **Console**, then click **Source** again:
+If the render reports that packages are missing, run this once in the RStudio **Console**, then render the website again:
 
 ```r
 install.packages(c("readxl", "jsonlite"))

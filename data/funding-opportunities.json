@@ -1,8 +1,8 @@
 {
-  "last_reviewed": "1 October 2026",
+  "last_reviewed": "17 October 2026",
   "opportunities": [
     {
-      "id": "radboud-glasgow-collaboration-fund-59",
+      "id": "radboud-glasgow-collaboration-fund-58",
       "status": "DEADLINE PASSED",
       "deadline_display": "5 Mar 2026",
       "deadline_sort": "2026-03-05",
@@ -20,7 +20,25 @@
       "source": "https://www.gla.ac.uk/explore/internationalisation/funding/radboud/"
     },
     {
-      "id": "chancellor-s-fund-58",
+      "id": "sum4products-research-project-scheme-64",
+      "status": "DEADLINE PASSED",
+      "deadline_display": "15 Jun 2026",
+      "deadline_sort": "2026-06-15",
+      "deadline_kind": "exact",
+      "deadline_note": "",
+      "funder": "EPSRC SUM4Products Network+",
+      "opportunity": "SUM4Products Research Project Scheme",
+      "type": "ndustry–academia research grant",
+      "area": "Research",
+      "funding_duration": "Up to 3 months full-time or 6 months part-time; researcher costs funded at 80% FEC, normally with industry co-funding",
+      "eligibility": "UK university academic mathematical scientist as project lead, working with at least one named industry partner. Researcher may be an RA or eligible PhD student",
+      "statistics_relevance": "Supports applied statistical modelling, uncertainty quantification, experimental design and data-driven research addressing industrial challenges",
+      "theme_tags": "Industrial collaboration; Applied statistics; Mathematical modelling; Research; Knowledge exchange",
+      "internal_note": "2026 EOI deadline passed. Monitor next round. Requires an industry partner; no funding for academic lead time when employing a researcher. Projects must relate to formulated products",
+      "source": "https://www.sum4products.co.uk/research-project-scheme"
+    },
+    {
+      "id": "chancellor-s-fund-57",
       "status": "DEADLINE PASSED",
       "deadline_display": "8 Sep 2026",
       "deadline_sort": "2026-09-08",
@@ -38,7 +56,7 @@
       "source": "https://www.gla.ac.uk/connect/supportus/supportinspires/chancellorsfund/apply/"
     },
     {
-      "id": "medtech-innovation-fund-40",
+      "id": "medtech-innovation-fund-39",
       "status": "DEADLINE PASSED",
       "deadline_display": "18 Sep 2026",
       "deadline_sort": "2026-09-18",
@@ -56,7 +74,7 @@
       "source": "https://www.gla.ac.uk/myglasgow/ris/ieed/innovation/innovationfunds/medtechinnovationfund/"
     },
     {
-      "id": "swift-flexifund-41",
+      "id": "swift-flexifund-40",
       "status": "DEADLINE PASSED",
       "deadline_display": "21 Sep 2026",
       "deadline_sort": "2026-09-21",
@@ -128,7 +146,7 @@
       "source": "https://www.lms.ac.uk/grants/lms-early-career-fellowships"
     },
     {
-      "id": "nerc-climate-adaptation-icure-discover-34",
+      "id": "nerc-climate-adaptation-icure-discover-33",
       "status": "FORTHCOMING",
       "deadline_display": "Oct 2026",
       "deadline_sort": "2026-10-01",
@@ -147,7 +165,7 @@
     },
     {
       "id": "forecasting-tipping-points-phase-2-4",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "9 Oct 2026",
       "deadline_sort": "2026-10-09",
       "deadline_kind": "exact",
@@ -165,7 +183,7 @@
     },
     {
       "id": "celebrating-new-appointments-scheme-9-6",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "15 Oct 2026",
       "deadline_sort": "2026-10-15",
       "deadline_kind": "exact",
@@ -183,7 +201,7 @@
     },
     {
       "id": "early-career-researcher-travel-grants-7",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "15 Oct 2026",
       "deadline_sort": "2026-10-15",
       "deadline_kind": "exact",
@@ -200,8 +218,8 @@
       "source": "https://www.lms.ac.uk/grants/lms-travel-grants-early-career-researchers"
     },
     {
-      "id": "learning-research-support-fund-56",
-      "status": "OPEN",
+      "id": "learning-research-support-fund-55",
+      "status": "DEADLINE PASSED",
       "deadline_display": "15 Oct 2026",
       "deadline_sort": "2026-10-15",
       "deadline_kind": "exact",
@@ -219,7 +237,7 @@
     },
     {
       "id": "postgraduate-research-conference-grants-scheme-8-5",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "15 Oct 2026",
       "deadline_sort": "2026-10-15",
       "deadline_kind": "exact",
@@ -362,7 +380,7 @@
       "source": "https://www.ukri.org/opportunity/advancing-innovation-in-accelerated-cancer-diagnosis/"
     },
     {
-      "id": "policy-fellowships-35",
+      "id": "policy-fellowships-34",
       "status": "FORTHCOMING",
       "deadline_display": "Nov 2026",
       "deadline_sort": "2026-11-01",
@@ -380,7 +398,7 @@
       "source": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
     },
     {
-      "id": "ukri-research-on-research-security-hub-36",
+      "id": "ukri-research-on-research-security-hub-35",
       "status": "FORTHCOMING",
       "deadline_display": "Nov 2026",
       "deadline_sort": "2026-11-01",
@@ -470,7 +488,7 @@
       "source": "https://www.lms.ac.uk/news/lms-emmy-noether-fellowships-2026"
     },
     {
-      "id": "lms-emmy-noether-fellowships-53",
+      "id": "lms-emmy-noether-fellowships-52",
       "status": "OPEN",
       "deadline_display": "30 Nov 2026",
       "deadline_sort": "2026-11-30",
@@ -488,7 +506,7 @@
       "source": "https://www.lms.ac.uk/grants/lms-emmy-noether-fellowships"
     },
     {
-      "id": "lms-grace-chisholm-young-fellowship-54",
+      "id": "lms-grace-chisholm-young-fellowship-53",
       "status": "OPEN",
       "deadline_display": "30 Nov 2026",
       "deadline_sort": "2026-11-30",
@@ -506,7 +524,7 @@
       "source": "https://www.lms.ac.uk/grants/grace-chisholm-young-fellowships"
     },
     {
-      "id": "climate-adaptation-environment-and-resilience-ice-free-arctic-ocean-38",
+      "id": "climate-adaptation-environment-and-resilience-ice-free-arctic-ocean-37",
       "status": "FORTHCOMING",
       "deadline_display": "Dec 2026",
       "deadline_sort": "2026-12-01",
@@ -524,7 +542,7 @@
       "source": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
     },
     {
-      "id": "frontier-ai-research-and-development-consortia-37",
+      "id": "frontier-ai-research-and-development-consortia-36",
       "status": "FORTHCOMING",
       "deadline_display": "Dec 2026",
       "deadline_sort": "2026-12-01",
@@ -578,7 +596,7 @@
       "source": "https://rse.org.uk/autumn-2026-rse-research-awards-programme-opens-today/"
     },
     {
-      "id": "venture-scientist-100-49",
+      "id": "venture-scientist-100-48",
       "status": "OPEN",
       "deadline_display": "6 Dec 2026",
       "deadline_sort": "2026-12-06",
@@ -596,7 +614,7 @@
       "source": "https://www.conceptionx.org/venture-scientist-100"
     },
     {
-      "id": "lms-inclusion-and-diversity-fund-55",
+      "id": "lms-inclusion-and-diversity-fund-54",
       "status": "OPEN",
       "deadline_display": "16 Dec 2026",
       "deadline_sort": "2026-12-16",
@@ -704,7 +722,7 @@
       "source": "https://www.lms.ac.uk/grants/calendar"
     },
     {
-      "id": "future-leaders-fellowships-round-12-39",
+      "id": "future-leaders-fellowships-round-12-38",
       "status": "FORTHCOMING",
       "deadline_display": "Feb 2027",
       "deadline_sort": "2027-02-01",
@@ -758,7 +776,7 @@
       "source": "https://www.ukri.org/opportunity/bbsrc-brazil-pump-priming-award-fappa/"
     },
     {
-      "id": "collaborative-teaching-scholarship-project-grants-46",
+      "id": "collaborative-teaching-scholarship-project-grants-45",
       "status": "FORTHCOMING",
       "deadline_display": "TBC – next academic year",
       "deadline_sort": "9999-12-31",
@@ -830,7 +848,79 @@
       "source": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
     },
     {
-      "id": "international-fellowships-2027-50",
+      "id": "himr-focused-research-grants-62",
+      "status": "FORTHCOMING",
+      "deadline_display": "Next round TBC",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "Heilbronn Institute for Mathematical Research (HIMR)",
+      "opportunity": "HIMR Focused Research Grants",
+      "type": "Focused research event grant",
+      "area": "Research",
+      "funding_duration": "Project-dependent; current award limit not verified",
+      "eligibility": "Groups of researchers proposing focused mathematical research activities; confirm current eligibility",
+      "statistics_relevance": "Could fund focused research meetings addressing open problems in statistical methodology, probability, extremes, spatial statistics or computational statistics",
+      "theme_tags": "Statistics; Mathematical sciences; Focused research; Workshops; Collaboration",
+      "internal_note": "Separate from the Small Grant Call. Designed for focused research meetings. Monitor the next application round and confirm award limits",
+      "source": "https://heilbronn.ac.uk/frg/"
+    },
+    {
+      "id": "himr-international-visitors-scheme-63",
+      "status": "ELIGIBILITY TO VERIFY",
+      "deadline_display": "Not confirmed",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "Heilbronn Institute for Mathematical Research (HIMR)",
+      "opportunity": "HIMR International Visitors Scheme",
+      "type": "International research visit / collaboration",
+      "area": "Research",
+      "funding_duration": "Financial support for eligible international research visits; amount and duration not verified",
+      "eligibility": "Scheme centred on leading international mathematicians with research interests shared by Heilbronn Fellows; confirm whether applications must be initiated by a Fellow",
+      "statistics_relevance": "Potentially supports international collaboration in Statistics, probability and related mathematical sciences, particularly through partnerships with Heilbronn Fellows",
+      "theme_tags": "Statistics; Mathematical sciences; International collaboration; Research visits; Networking",
+      "internal_note": "Restricted relevance: establish a connection with a Heilbronn Fellow before considering an application. Not a general-purpose Glasgow visitor grant",
+      "source": "https://heilbronn.ac.uk/frg/"
+    },
+    {
+      "id": "himr-small-grant-call-61",
+      "status": "OPEN",
+      "deadline_display": "Rolling – verify",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "Heilbronn Institute for Mathematical Research (HIMR)",
+      "opportunity": "HIMR Small Grant Call",
+      "type": "Research activity / event grant",
+      "area": "Research",
+      "funding_duration": "Typically up to £5,000; applications up to £10,000 or exceptionally more considered",
+      "eligibility": "Researchers proposing activities supporting UK mathematical research and the mathematical sciences community; confirm current applicant eligibility",
+      "statistics_relevance": "Supports Statistics workshops, conferences, research networks, collaborative activities, visiting researchers and PhD student development",
+      "theme_tags": "Statistics; Mathematical sciences; Workshops; Research collaboration; ECR; Training",
+      "internal_note": "Flexible small-scale support for activities that may not be eligible for other funding. Historical guidance indicates rolling applications; confirm current arrangements",
+      "source": "https://heilbronn.ac.uk/small-grants-call/"
+    },
+    {
+      "id": "heilbronn-research-fellowships-2027-60",
+      "status": "OPEN",
+      "deadline_display": "08/11/2026 23:59 GMT",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "Heilbronn Institute for Mathematical Research (HIMR)",
+      "opportunity": "Heilbronn Research Fellowships 2027",
+      "type": "Postdoctoral research fellowship",
+      "area": "Research",
+      "funding_duration": "3 years; salary approximately £46,874–£52,517 per year (London weighting where applicable)",
+      "eligibility": "Researchers in relevant mathematical sciences, including Statistics, probability and data science. Restricted to UK residents who are UK or dual UK nationals and eligible for national security clearance. Appointments at Bristol, Imperial, King's College London, UCL or Manchester.",
+      "statistics_relevance": "Excellent postdoctoral career opportunity for eligible Statistics PhD graduates and ECRs, particularly those working in probability, statistical methodology, data science and mathematical research.",
+      "theme_tags": "Statistics; Probability; Data science; ECR; Postdoctoral fellowship; Mathematical sciences",
+      "internal_note": "Requires national security clearance and includes classified research alongside independent research. Applicants submit CV, cover letter, one-page research statement and three references via MathJobs. Interviews expected 11–13 January 2027.",
+      "source": "https://heilbronn.ac.uk/fellowships/"
+    },
+    {
+      "id": "international-fellowships-2027-49",
       "status": "FORTHCOMING",
       "deadline_display": "Early–mid March 2027 (TBC)",
       "deadline_sort": "9999-12-31",
@@ -848,7 +938,7 @@
       "source": "https://www.thebritishacademy.ac.uk/documents/6283/International_Fellowships_2027_-_FAQs.pdf"
     },
     {
-      "id": "learning-teaching-development-fund-ltdf-43",
+      "id": "learning-teaching-development-fund-ltdf-42",
       "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next call TBC",
       "deadline_sort": "9999-12-31",
@@ -902,7 +992,7 @@
       "source": "https://www.ukri.org/opportunity/mathematical-sciences-small-grants/"
     },
     {
-      "id": "nerc-urgency-funding-52",
+      "id": "nerc-urgency-funding-51",
       "status": "OPEN",
       "deadline_display": "Open – no fixed deadline",
       "deadline_sort": "9999-12-31",
@@ -920,7 +1010,25 @@
       "source": "https://www.ukri.org/opportunity/nerc-urgency-funding-open/"
     },
     {
-      "id": "scholarship-network-grants-47",
+      "id": "sum4products-mini-grants-65",
+      "status": "OPEN",
+      "deadline_display": "Rolling – verify",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "EPSRC SUM4Products Network+",
+      "opportunity": "SUM4Products Mini-grants",
+      "type": "Travel / networking / activity grant",
+      "area": "Research",
+      "funding_duration": "Normally up to £500; larger requests may be discussed",
+      "eligibility": "UK-based SUM4Products network members, generally with previous participation. PhD students eligible with supervisor support. UK travel only",
+      "statistics_relevance": "Supports Statistics researchers and PhD students engaging with industry through workshops, conferences, site visits and collaborative activities",
+      "theme_tags": "Industrial collaboration; Networking; Travel; Workshops; PhD; Knowledge exchange",
+      "internal_note": "Rolling applications; decisions within 4 weeks. Must demonstrate a direct connection to the mathematics of formulated products. Industry co-funding normally expected for co-hosted activities",
+      "source": "https://www.sum4products.co.uk/flexible-funding"
+    },
+    {
+      "id": "scholarship-network-grants-46",
       "status": "FORTHCOMING",
       "deadline_display": "TBC – next academic year",
       "deadline_sort": "9999-12-31",
@@ -938,7 +1046,7 @@
       "source": "https://www.lms.ac.uk/grants/scholarship-networks"
     },
     {
-      "id": "scholarship-of-teaching-learning-sotl-fund-42",
+      "id": "scholarship-of-teaching-learning-sotl-fund-41",
       "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next call TBC",
       "deadline_sort": "9999-12-31",
@@ -956,7 +1064,7 @@
       "source": "https://www.gla.ac.uk/myglasgow/learningandteaching/staff-support/funding/"
     },
     {
-      "id": "scotland-s-tertiary-enhancement-programme-step-funded-projects-48",
+      "id": "scotland-s-tertiary-enhancement-programme-step-funded-projects-47",
       "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next call TBC",
       "deadline_sort": "9999-12-31",
@@ -974,7 +1082,7 @@
       "source": "https://www.qaa.ac.uk/scotland/news-events/news/step-calls-for-proposals-for-funded-project"
     },
     {
-      "id": "single-institution-teaching-scholarship-project-grants-45",
+      "id": "single-institution-teaching-scholarship-project-grants-44",
       "status": "FORTHCOMING",
       "deadline_display": "TBC – next academic year",
       "deadline_sort": "9999-12-31",
@@ -992,7 +1100,7 @@
       "source": "https://www.lms.ac.uk/grants/single-teaching-scholarship"
     },
     {
-      "id": "student-staff-partnership-schemes-ssps-44",
+      "id": "student-staff-partnership-schemes-ssps-43",
       "status": "CLOSED – monitor recurrence",
       "deadline_display": "Check internal call",
       "deadline_sort": "9999-12-31",
@@ -1010,7 +1118,7 @@
       "source": "https://www.gla.ac.uk/myglasgow/learningandteaching/staff-support/funding/"
     },
     {
-      "id": "team-uofg-together-internship-fund-57",
+      "id": "team-uofg-together-internship-fund-56",
       "status": "CLOSED – monitor recurrence",
       "deadline_display": "Next round TBC",
       "deadline_sort": "9999-12-31",
@@ -1028,7 +1136,7 @@
       "source": "https://www.gla.ac.uk/myglasgow/careers/finding-jobs/studentopportunitieshub/studentopportunitieshub-staff/"
     },
     {
-      "id": "transformative-sustainable-ai-technologies-60",
+      "id": "transformative-sustainable-ai-technologies-59",
       "status": "OPEN",
       "deadline_display": "10 Nov 2026 4pm",
       "deadline_sort": "9999-12-31",
@@ -1046,25 +1154,7 @@
       "source": "https://www.ukri.org/opportunity/transformative-sustainable-ai-technologies/"
     },
     {
-      "id": "what-works-centre-for-a-climate-resilient-uk-33",
-      "status": "OPEN",
-      "deadline_display": "15 Dec 2026 4pm",
-      "deadline_sort": "9999-12-31",
-      "deadline_kind": "text",
-      "deadline_note": "",
-      "funder": "UKRI / NERC",
-      "opportunity": "What Works Centre for a climate resilient UK",
-      "type": "Centre / evidence synthesis",
-      "area": "Research",
-      "funding_duration": "Up to £21.1m funder contribution; 44 months; one award",
-      "eligibility": "UK research organisations eligible for ESRC funding; interdisciplinary centre-scale application. At least one project co-lead must be from UK business, third sector or government.",
-      "statistics_relevance": "Strong scope for environmental statistics, climate/extremes modelling, causal inference and evaluation, evidence synthesis and uncertainty quantification within climate adaptation research.",
-      "theme_tags": "Climate resilience; Environmental statistics; Extremes; Causal inference; Evaluation; Interdisciplinary",
-      "internal_note": "Demand management applies. Check UofG internal selection/deadline. Large interdisciplinary consortium required, including a non-academic co-lead.",
-      "source": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
-    },
-    {
-      "id": "what-works-centre-for-a-climate-resilient-uk-51",
+      "id": "what-works-centre-for-a-climate-resilient-uk-50",
       "status": "OPEN",
       "deadline_display": "15 December 2026, 16:00",
       "deadline_sort": "9999-12-31",
