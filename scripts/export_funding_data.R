@@ -85,7 +85,8 @@ status_column <- if ("Manual status" %in% names(funding_data)) {
   stop("Could not find the Manual status column in the Funding opportunities worksheet.")
 }
 
-last_reviewed <- format(Sys.Date(), "%e %B %Y") |> trimws()
+review_date <- as.Date(format(Sys.time(), tz = "Europe/London", format = "%Y-%m-%d"))
+last_reviewed <- format(review_date, "%e %B %Y") |> trimws()
 
 records <- lapply(seq_len(nrow(funding_data)), function(index) {
   row <- funding_data[index, ]
