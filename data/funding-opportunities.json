@@ -1,5 +1,5 @@
 {
-  "last_reviewed": "19 October 2026",
+  "last_reviewed": "23 October 2026",
   "opportunities": [
     {
       "id": "radboud-glasgow-collaboration-fund-58",
@@ -255,7 +255,7 @@
     },
     {
       "id": "international-bilateral-visits-12",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -273,7 +273,7 @@
     },
     {
       "id": "international-joint-projects-11",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -291,7 +291,7 @@
     },
     {
       "id": "personal-research-fellowships-8",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -309,7 +309,7 @@
     },
     {
       "id": "research-collaboration-grants-9",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -327,7 +327,7 @@
     },
     {
       "id": "saphire-fund-13",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -345,7 +345,7 @@
     },
     {
       "id": "small-research-grants-10",
-      "status": "OPEN",
+      "status": "DEADLINE PASSED",
       "deadline_display": "21 Oct 2026",
       "deadline_sort": "2026-10-21",
       "deadline_kind": "exact",
@@ -416,6 +416,24 @@
       "source": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
     },
     {
+      "id": "innovation-cluster-development-fund-icdf-72",
+      "status": "OPEN",
+      "deadline_display": "2 Nov 2026",
+      "deadline_sort": "2026-11-02",
+      "deadline_kind": "exact",
+      "deadline_note": "",
+      "funder": "University of Glasgow / CoSE",
+      "opportunity": "Innovation Cluster Development Fund (ICDF)",
+      "type": "Internal innovation / commercialisation funding",
+      "area": "Research",
+      "funding_duration": "Amount and duration to confirm from internal guidance",
+      "eligibility": "University of Glasgow applicants; internal criteria and eligible activities to verify",
+      "statistics_relevance": "Potential support for developing innovation clusters around statistical software, AI, data science and commercialisation",
+      "theme_tags": "Innovation; Knowledge exchange; Statistics; AI; Commercialisation; Collaboration",
+      "internal_note": "Internal deadline reported as 2 Nov 2026 at noon. Confirm detailed criteria and process with CoSE/RIS.",
+      "source": "https://www.gla.ac.uk/myglasgow/ris/ieed/innovation/"
+    },
+    {
       "id": "rse-fulbright-scholar-award-15",
       "status": "OPEN",
       "deadline_display": "2 Nov 2026",
@@ -434,6 +452,24 @@
       "source": "https://rse.org.uk/award/fulbright-rse-scholar-award/"
     },
     {
+      "id": "biodiversa-biodivfuture-novel-ecosystems-70",
+      "status": "OPEN",
+      "deadline_display": "10 Nov 2026",
+      "deadline_sort": "2026-11-10",
+      "deadline_kind": "exact",
+      "deadline_note": "",
+      "funder": "UKRI / Biodiversa+",
+      "opportunity": "Biodiversa+ BiodivFuture — Novel Ecosystems",
+      "type": "International collaborative research grant",
+      "area": "Research",
+      "funding_duration": "Funding varies by national funder; check UKRI guidance",
+      "eligibility": "UK-based researchers participating in eligible international consortia; UKRI and consortium eligibility to confirm",
+      "statistics_relevance": "Strong fit for ecological and environmental statistics, biodiversity modelling, spatial statistics and analysis of ecosystem change",
+      "theme_tags": "Ecological statistics; Biodiversity; Spatial statistics; Environmental change; International collaboration",
+      "internal_note": "Pre-proposal deadline reported as 10 Nov 2026. Verify national eligibility, consortium rules and application stages.",
+      "source": "https://www.ukri.org/opportunity/biodiversa-2026-to-2027-novel-ecosystems-biodivfuture/"
+    },
+    {
       "id": "transformative-sustainable-ai-technologies-16",
       "status": "OPEN",
       "deadline_display": "10 Nov 2026",
@@ -450,6 +486,24 @@
       "theme_tags": "AI/ML; sustainability",
       "internal_note": "NOTE: UofG note of interest required — see email sent 26/08.",
       "source": "https://www.ukri.org/opportunity/transformative-sustainable-ai-technologies/"
+    },
+    {
+      "id": "water4all-2026-sustainable-water-management-71",
+      "status": "OPEN",
+      "deadline_display": "10 Nov 2026",
+      "deadline_sort": "2026-11-10",
+      "deadline_kind": "exact",
+      "deadline_note": "",
+      "funder": "UKRI / Water4All",
+      "opportunity": "Water4All 2026 — Sustainable Water Management",
+      "type": "International collaborative research grant",
+      "area": "Research",
+      "funding_duration": "Funding varies by national funder; check UKRI guidance",
+      "eligibility": "Eligible researchers in multinational teams; check UK funding rules and partner requirements",
+      "statistics_relevance": "Relevant to hydrological and environmental statistics, extremes, water-risk modelling and forecasting",
+      "theme_tags": "Environmental statistics; Hydrology; Extremes; Water management; Forecasting; International collaboration",
+      "internal_note": "Pre-proposal deadline reported as 10 Nov 2026. Verify UK participation, national funding conditions and application stages.",
+      "source": "https://www.ukri.org/opportunity/water4all-2026-call-sustainable-water-management/"
     },
     {
       "id": "exploring-the-frontiers-of-environmental-research-2026-17",
@@ -596,6 +650,24 @@
       "source": "https://rse.org.uk/autumn-2026-rse-research-awards-programme-opens-today/"
     },
     {
+      "id": "chai-catalyst-competition-67",
+      "status": "FORTHCOMING",
+      "deadline_display": "2 Dec 2026",
+      "deadline_sort": "2026-12-02",
+      "deadline_kind": "exact",
+      "deadline_note": "",
+      "funder": "CHAI (Causality in Healthcare AI Hub)",
+      "opportunity": "CHAI Catalyst Competition",
+      "type": "Healthcare AI innovation / seed funding",
+      "area": "Research",
+      "funding_duration": "Three awards of £50,000",
+      "eligibility": "Early-stage healthcare AI innovations with potential for real-world impact; verify full applicant and partnership criteria",
+      "statistics_relevance": "Relevant to statistical machine learning, causal inference, uncertainty quantification and translation of healthcare AI into practice.",
+      "theme_tags": "Healthcare; AI/ML; Causal inference; Innovation; Impact",
+      "internal_note": "Applications open 2 Nov 2026; deadline 2 Dec 2026. Targeted opportunity: healthcare application and credible translation pathway required.",
+      "source": "https://www.chai.ac.uk/catalyst-competition"
+    },
+    {
       "id": "venture-scientist-100-48",
       "status": "OPEN",
       "deadline_display": "6 Dec 2026",
@@ -630,6 +702,24 @@
       "theme_tags": "EDI; Events; Networking; Widening participation",
       "internal_note": "Activities must take place in the UK and have a clear EDI focus within mathematics/mathematical sciences.",
       "source": ""
+    },
+    {
+      "id": "prob-ai-hub-workshop-fund-66",
+      "status": "OPEN",
+      "deadline_display": "5 Jan 2027",
+      "deadline_sort": "2027-01-05",
+      "deadline_kind": "exact",
+      "deadline_note": "",
+      "funder": "Prob_AI Hub",
+      "opportunity": "Prob_AI Hub Workshop Fund",
+      "type": "Research workshop / networking grant",
+      "area": "Research",
+      "funding_duration": "Up to £10,000 per project",
+      "eligibility": "Researchers proposing events that bring together mathematical, statistical and computer science communities underpinning probabilistic AI. Detailed eligibility to be confirmed",
+      "statistics_relevance": "Supports workshops and collaborative activities involving statistical methodology, Bayesian inference, probabilistic modelling and AI, helping build interdisciplinary research partnerships",
+      "theme_tags": "Statistics; Probabilistic AI; Bayesian methods; Machine learning; Workshops; Research collaboration",
+      "internal_note": "Funding for events that strengthen the probabilistic AI research community, engage research users and stimulate new collaborations. Check full eligibility and eligible costs before applying",
+      "source": "https://www.probai.ac.uk/funding/"
     },
     {
       "id": "collaborations-with-developing-countries-scheme-5-24",
@@ -830,6 +920,24 @@
       "source": "https://www.ukri.org/councils/epsrc/guidance-for-applicants/types-of-funding-we-offer/standard-research/"
     },
     {
+      "id": "epsrc-stfc-impact-acceleration-account-iaa-forthcoming-calls-69",
+      "status": "FORTHCOMING",
+      "deadline_display": "Early 2027 – date TBC",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "EPSRC / STFC (University of Glasgow IAA)",
+      "opportunity": "EPSRC/STFC Impact Acceleration Account (IAA) – forthcoming calls",
+      "type": "Impact acceleration / knowledge exchange / commercialisation",
+      "area": "Research",
+      "funding_duration": "Funding amounts and project durations to be confirmed in call announcements",
+      "eligibility": "Likely University of Glasgow researchers; eligibility, eligible costs and project criteria subject to individual IAA calls",
+      "statistics_relevance": "Supports translation of statistical research, software, AI tools and mathematical methods into impact, partnerships and commercialisation.",
+      "theme_tags": "Impact; Knowledge exchange; Innovation; Industry; AI/ML; Commercialisation",
+      "internal_note": "Newsletter anticipates new EPSRC/STFC IAA calls in early 2027. Monitor UofG Research & Innovation Services announcements; do not treat as an open call.",
+      "source": "https://www.gla.ac.uk/myglasgow/ris/"
+    },
+    {
       "id": "enabling-ai-adoption-across-science-and-engineering-32",
       "status": "FORTHCOMING",
       "deadline_display": "Sep/Oct 2026",
@@ -846,6 +954,24 @@
       "theme_tags": "AI/ML; interdisciplinary",
       "internal_note": "Listed by UKRI for Sep 2026; check launched call for final details.",
       "source": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
+    },
+    {
+      "id": "evex-associate-fellowships-68",
+      "status": "ELIGIBILITY TO VERIFY",
+      "deadline_display": "Deadline to confirm",
+      "deadline_sort": "9999-12-31",
+      "deadline_kind": "text",
+      "deadline_note": "",
+      "funder": "EvEx",
+      "opportunity": "EvEx Associate Fellowships",
+      "type": "Policy engagement / knowledge exchange fellowship",
+      "area": "Research and Scholarship",
+      "funding_duration": "Support to host 3–10 policy fellowships; award value and duration to confirm",
+      "eligibility": "UK research organisations seeking to host groups of public and civil servants; not an individual academic fellowship",
+      "statistics_relevance": "Potential for Statistics-led policy engagement, evidence-informed decisions, quantitative evaluation and public-sector collaboration.",
+      "theme_tags": "Policy; Knowledge exchange; Impact; Evidence; Statistics",
+      "internal_note": "Verify live call, closing date, eligibility and application route. Distinguish Associate Fellowships for host organisations from Policy Fellowships for civil servants. Contact evex@csap.cam.ac.uk.",
+      "source": "mailto:evex@csap.cam.ac.uk"
     },
     {
       "id": "himr-focused-research-grants-62",
